@@ -1,0 +1,29 @@
+{
+  "name": "express-mongo-resources",
+  "version": "1.0.0",
+  "description": "This is a simple express persistent file api that uses mongodb to store data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MugsyCarter/express-mongo-resources.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MugsyCarter/express-mongo-resources/issues"
+  },
+  "homepage": "https://github.com/MugsyCarter/express-mongo-resources#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.5"
+  }
+}
