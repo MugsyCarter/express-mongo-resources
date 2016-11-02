@@ -18,7 +18,7 @@ POST: add a tree to the database
    Example: {name: 'douglas fir', type: 'gymnosperm', genus: 'Pseudotsuga'}                 
    Post Url: 'localhost:3200/api/trees'
 
-// DELETE: delete the list 
+// DELETE: delete the list of capitals
 
 
 
