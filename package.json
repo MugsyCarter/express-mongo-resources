@@ -4,7 +4,7 @@
   "description": "This is a simple express persistent file api that uses mongodb to store data.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha && eslint ."
   },
   "repository": {
     "type": "git",
