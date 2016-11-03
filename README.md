@@ -27,4 +27,7 @@ DELETE all:
 extra function:
       typing the url http://localhost:3200/api/trees/ecosystem will calculate the ecosystem based on the prevalence of douglas fir trees.
 
+Querying:
+      You can add a query at anytime by typing your query in this format added to your url "/?key=value"
+      exmaple 'localhost:3200/api/trees/?name=Bigleaf+Maple' gives you the bigleaf maple tree.
 
