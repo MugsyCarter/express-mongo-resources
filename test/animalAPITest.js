@@ -116,7 +116,7 @@ describe( 'animal', () => {
 			.catch( done );
 	});
 
-    //commented out to work as part of the test chain
+    // commented out to work as part of the test chain
 	// after( done=> {
 	// 	connection.close(done);
 	// });
