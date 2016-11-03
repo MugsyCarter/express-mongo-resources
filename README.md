@@ -14,7 +14,9 @@ GET: see a list of entries
     All angiosperms in the database:             Url: 'localhost:3200/api/trees/angiosperms'
     
 GET by genus:
-
+    type genus after tree or animal and then add the specific genus as the next url parameter.
+    example  Url: 'localhost:3200/api/trees/genus/Acer' gives all maples
+    example Url: 'localhost:3200/api/animals/genus/Ursus' gives all bears
 
 POST: add a tree to the database
     You can add a tree to the trees database and the program will sort it automatically 
@@ -22,7 +24,6 @@ POST: add a tree to the database
    Post Url: 'localhost:3200/api/trees'
 
 DELETE: a tree or animal by id
-DELETE all:
 
 extra function:
       typing the url http://localhost:3200/api/trees/ecosystem will calculate the ecosystem based on the prevalence of douglas fir trees.
